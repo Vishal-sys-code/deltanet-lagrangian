@@ -12,8 +12,11 @@ This repository contains a concise research-style implementation and explanation
 ---
 
 ## Key Equations
-- **Vanilla:** \( S_t = S_{t-1} + v_t k_t^T \)
-- **DeltaNet:** \( S_t = S_{t-1} - \beta_t S_{t-1} k_t k_t^T + \beta_t v_t k_t^T \)
+- **Vanilla:**  
+  $S_t = S_{t-1} + v_t k_t^T$
+
+- **DeltaNet:**  
+  $S_t = S_{t-1} - \beta_t S_{t-1} k_t k_t^T + \beta_t v_t k_t^T$
 - Coefficients emerge as survival factors: earlier memories decay if later keys align with them.
 
 ---
