@@ -22,9 +22,8 @@ This repository contains a concise research-style implementation and explanation
 ---
 
 ## Repository Contents
-- `deltanet.py` → PyTorch implementation of DeltaNet update.
-- `notebooks/demo.ipynb` → Colab-ready demo showing Vanilla vs DeltaNet on toy data.
-- `report.pdf` → Two-page technical note (Lagrangian derivation + intuition).
+- `implementation_notebook.ipynb` → Colab-ready demo showing Vanilla vs DeltaNet on toy data.
+- `solution_indepth.pdf` → Two-page technical note (Lagrangian derivation + intuition).
 - `deltanet.png` → Schematic diagram of Vanilla vs DeltaNet memory dynamics.
 
 ---
